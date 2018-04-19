@@ -20668,15 +20668,15 @@ resistor.</text>
 <text x="200.66" y="53.34" size="2.54" layer="94" align="top-left">GPIO5 LED</text>
 <text x="332.74" y="104.14" size="2.54" layer="94" align="top-left">Headers</text>
 <text x="421.64" y="10.16" size="2.54" layer="94" align="top-left">01</text>
-<text x="355.6" y="8.89" size="1.27" layer="94" rot="MR180" align="top-left">Original ESP32 Thing by Jim Lindblom
-ESP32 Thing Plus by Mike Hord</text>
+<text x="273.812" y="0.762" size="1.778" layer="94" rot="MR180" align="top-left">Original ESP32 Thing by Jim Lindblom</text>
 <text x="93.98" y="231.14" size="2.032" layer="97" font="vector">SJ2 disconnects the
 power LED (for 
 power saving).</text>
 <text x="381" y="114.3" size="1.778" layer="97" font="vector" align="top-center">If DTR is LOW, toggling RTS from HIGH to LOW resets to run mode.
 If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
-<text x="264.16" y="187.96" size="2.54" layer="91">QWIIC Connector</text>
+<text x="264.16" y="187.96" size="2.54" layer="94">QWIIC Connector</text>
 <wire x1="259.08" y1="99.06" x2="259.08" y2="193.04" width="0.1524" layer="97" style="longdash"/>
+<text x="358.14" y="7.62" size="3.81" layer="91">Mike Hord</text>
 </plain>
 <instances>
 <instance part="S1" gate="G$1" x="294.64" y="38.1"/>
@@ -20714,7 +20714,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <instance part="GND21" gate="1" x="76.2" y="223.52"/>
 <instance part="GND14" gate="1" x="43.18" y="223.52"/>
 <instance part="U1" gate="G$1" x="208.28" y="248.92" rot="MR0"/>
-<instance part="GND9" gate="1" x="195.58" y="231.14" rot="MR0"/>
+<instance part="GND9" gate="1" x="195.58" y="218.44" rot="MR0"/>
 <instance part="GND11" gate="1" x="185.42" y="218.44" rot="MR0"/>
 <instance part="GND12" gate="1" x="175.26" y="238.76" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="177.8" y="236.22" size="1.778" layer="96" rot="MR0"/>
@@ -20740,7 +20740,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 </instance>
 <instance part="R6" gate="G$1" x="185.42" y="228.6" rot="MR90"/>
 <instance part="R5" gate="G$1" x="190.5" y="241.3" rot="MR90"/>
-<instance part="GND10" gate="1" x="190.5" y="231.14" rot="MR0"/>
+<instance part="GND10" gate="1" x="190.5" y="218.44" rot="MR0"/>
 <instance part="SJ1" gate="G$1" x="185.42" y="241.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="182.88" y="238.76" size="1.778" layer="95" rot="R90"/>
 </instance>
@@ -20775,7 +20775,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <instance part="D4" gate="G$1" x="226.06" y="40.64"/>
 <instance part="R8" gate="G$1" x="226.06" y="27.94" rot="R90"/>
 <instance part="GND37" gate="1" x="226.06" y="17.78"/>
-<instance part="LOGO2" gate="G$1" x="12.7" y="10.16"/>
+<instance part="LOGO2" gate="G$1" x="244.856" y="11.176"/>
 <instance part="FD1" gate="G$1" x="429.26" y="27.94"/>
 <instance part="FD2" gate="G$1" x="426.72" y="25.4"/>
 <instance part="GND38" gate="1" x="365.76" y="40.64"/>
@@ -20975,7 +20975,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U1" gate="G$1" pin="VSS"/>
 <wire x1="198.12" y1="246.38" x2="195.58" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="195.58" y1="246.38" x2="195.58" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="246.38" x2="195.58" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
@@ -20996,7 +20996,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="190.5" y1="233.68" x2="190.5" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="220.98" x2="190.5" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
