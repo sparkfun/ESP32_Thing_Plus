@@ -26276,10 +26276,6 @@ cell LiPo battery.</text>
 I_CHG = 1000 / R_PROG
 R_PROG=2k : I_CHG=500mA</text>
 <text x="2.54" y="276.86" size="2.54" layer="94" font="vector" align="top-left">Voltage Regulator and Battery Charger</text>
-<text x="180.34" y="233.68" size="2.032" layer="97" rot="MR0" align="top-left">SJ1 can be cut to 
-modify the charge-
-current programming
-resistor.</text>
 <text x="132.08" y="276.86" size="2.54" layer="94" font="vector" align="top-left">Lithium-Polymer Battery Charger (1-cell)</text>
 <text x="86.36" y="220.98" size="1.778" layer="97" font="vector" align="top-center">600mA out
 6V max in</text>
@@ -26311,7 +26307,8 @@ resistor.</text>
 If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <text x="264.16" y="187.96" size="2.54" layer="94" font="vector">QWIIC Connector</text>
 <wire x1="259.08" y1="99.06" x2="259.08" y2="193.04" width="0.1524" layer="97" style="longdash"/>
-<text x="358.14" y="7.62" size="3.81" layer="91">Mike Hord</text>
+<text x="358.14" y="7.62" size="3.81" layer="94">Mike Hord</text>
+<text x="200.66" y="50.8" size="2.54" layer="94" font="vector">GPIO13 LED</text>
 </plain>
 <instances>
 <instance part="S1" gate="G$1" x="294.64" y="38.1"/>
