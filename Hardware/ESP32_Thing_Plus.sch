@@ -26160,7 +26160,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_12" device="SM_SQ_NO_SILK"/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_16" device="1X16_SM_SQ_NOSILK"/>
-<part name="U2" library="SparkFun-RF" deviceset="ESP-WROOM-32" device="NARROW"/>
+<part name="U2" library="SparkFun-RF" deviceset="ESP-WROOM-32" device="NARROW">
+<attribute name="PROD_ID" value="IC-13849"/>
+</part>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="V_USB" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
@@ -26308,7 +26310,9 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <instance part="GND7" gate="1" x="337.82" y="223.52"/>
 <instance part="J2" gate="G$1" x="378.46" y="76.2" rot="R180"/>
 <instance part="J4" gate="G$1" x="383.54" y="71.12" rot="MR180"/>
-<instance part="U2" gate="G$1" x="116.84" y="109.22"/>
+<instance part="U2" gate="G$1" x="116.84" y="109.22">
+<attribute name="PROD_ID" x="116.84" y="109.22" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY3" gate="G$1" x="365.76" y="96.52" smashed="yes">
 <attribute name="VALUE" x="364.744" y="100.076" size="1.778" layer="96"/>
 </instance>
