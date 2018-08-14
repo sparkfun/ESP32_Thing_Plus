@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -26186,6 +26186,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-4.6X2.8MM" value="0"/>
+<part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26200,17 +26202,17 @@ MTDO         1         x       x
 GPIO5        1         1       x
 If U0TXD, GPIO2, GPIO5 are floating, 
 GPIO0 determines boot mode</text>
-<text x="256.54" y="276.86" size="2.54" layer="94" font="vector" align="top-left">CP2102N (USB-to-Serial Converter)</text>
+<text x="256.54" y="274.32" size="2.54" layer="94" font="vector">CP2102N (USB-to-Serial Converter)</text>
 <text x="134.62" y="264.16" size="1.524" layer="97" align="top-left">V_BATT should be a single-
 cell LiPo battery.</text>
 <text x="180.34" y="218.44" size="2.032" layer="97" font="vector" align="top-right">Charge current:
 I_CHG = 1000 / R_PROG
 R_PROG=2k : I_CHG=500mA</text>
-<text x="2.54" y="276.86" size="2.54" layer="94" font="vector" align="top-left">Voltage Regulator and Battery Charger</text>
-<text x="132.08" y="276.86" size="2.54" layer="94" font="vector" align="top-left">Lithium-Polymer Battery Charger (1-cell)</text>
+<text x="2.54" y="274.32" size="2.54" layer="94" font="vector">Voltage Regulator and Battery Charger</text>
+<text x="132.08" y="274.32" size="2.54" layer="94" font="vector">Lithium-Polymer Battery Charger (1-cell)</text>
 <text x="86.36" y="220.98" size="1.778" layer="97" font="vector" align="top-center">600mA out
 6V max in</text>
-<text x="332.74" y="190.5" size="2.54" layer="94" font="vector" align="top-left">Auto-Reset</text>
+<text x="332.74" y="187.96" size="2.54" layer="94" font="vector">Auto-Reset</text>
 <wire x1="0" y1="193.04" x2="129.54" y2="193.04" width="0.2032" layer="97" style="longdash"/>
 <wire x1="129.54" y1="193.04" x2="254" y2="193.04" width="0.2032" layer="97" style="longdash"/>
 <wire x1="254" y1="193.04" x2="259.08" y2="193.04" width="0.2032" layer="97" style="longdash"/>
@@ -26229,17 +26231,20 @@ R_PROG=2k : I_CHG=500mA</text>
 <wire x1="259.08" y1="66.04" x2="259.08" y2="55.88" width="0.2032" layer="97" style="longdash"/>
 <wire x1="259.08" y1="55.88" x2="259.08" y2="0" width="0.2032" layer="97" style="longdash"/>
 <wire x1="259.08" y1="55.88" x2="198.12" y2="55.88" width="0.2032" layer="97" style="longdash"/>
-<text x="2.54" y="190.5" size="2.54" layer="94" align="top-left">Espressif ESP32</text>
-<text x="261.62" y="63.5" size="2.54" layer="94" font="vector" align="top-left">Reset Button</text>
-<text x="332.74" y="104.14" size="2.54" layer="94" font="vector" align="top-left">Headers</text>
-<text x="421.64" y="10.16" size="2.54" layer="94" align="top-left">02</text>
+<text x="2.54" y="187.96" size="2.54" layer="94">Espressif ESP32</text>
+<text x="261.62" y="60.96" size="2.54" layer="94" font="vector">Reset Button</text>
+<text x="332.74" y="101.6" size="2.54" layer="94" font="vector">Headers</text>
+<text x="421.64" y="10.16" size="2.54" layer="94" align="top-left">v03</text>
 <text x="273.812" y="0.762" size="1.778" layer="94" rot="MR180" align="top-left">Original ESP32 Thing by Jim Lindblom</text>
 <text x="381" y="114.3" size="1.778" layer="97" font="vector" align="top-center">If DTR is LOW, toggling RTS from HIGH to LOW resets to run mode.
 If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
-<text x="264.16" y="187.96" size="2.54" layer="94" font="vector">QWIIC Connector</text>
+<text x="261.62" y="187.96" size="2.54" layer="94" font="vector">QWIIC Connector</text>
 <wire x1="259.08" y1="99.06" x2="259.08" y2="193.04" width="0.1524" layer="97" style="longdash"/>
-<text x="358.14" y="7.62" size="3.81" layer="94">Mike Hord</text>
+<text x="348.996" y="11.43" size="2.54" layer="94">Mike Hord</text>
 <text x="200.66" y="50.8" size="2.54" layer="94" font="vector">GPIO13 LED</text>
+<wire x1="259.08" y1="99.06" x2="259.08" y2="66.04" width="0.1524" layer="97" style="longdash"/>
+<text x="261.62" y="93.98" size="2.54" layer="94">GPIO0 Button</text>
+<text x="331.47" y="6.604" size="2.54" layer="94">Revised by: Alex Wende</text>
 </plain>
 <instances>
 <instance part="S1" gate="G$1" x="294.64" y="38.1"/>
@@ -26342,6 +26347,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <instance part="FD2" gate="G$1" x="426.72" y="33.02"/>
 <instance part="FD3" gate="G$1" x="426.72" y="30.48"/>
 <instance part="FD4" gate="G$1" x="429.26" y="30.48"/>
+<instance part="S2" gate="G$1" x="294.64" y="83.82"/>
+<instance part="GND10" gate="1" x="287.02" y="78.74"/>
 </instances>
 <busses>
 </busses>
@@ -26534,6 +26541,12 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="185.42" y1="121.92" x2="185.42" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="S2" gate="G$1" pin="1"/>
+<wire x1="289.56" y1="83.82" x2="287.02" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="83.82" x2="287.02" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="DTR" class="0">
@@ -26748,6 +26761,11 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U2" gate="G$1" pin="IO0"/>
 <wire x1="134.62" y1="134.62" x2="137.16" y2="134.62" width="0.1524" layer="91"/>
 <label x="137.16" y="134.62" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<label x="302.26" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="S2" gate="G$1" pin="4"/>
+<wire x1="299.72" y1="81.28" x2="302.26" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
