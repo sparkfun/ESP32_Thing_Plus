@@ -22828,6 +22828,62 @@ part number 2062-2P from STA</description>
 <text x="0" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
 <text x="0" y="1.905" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="PAD.02X.02">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.02" Square&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.02" x 0.02"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="0.508" dy="0.508" layer="1"/>
+</package>
+<package name="PAD.03X.03">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.03" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.03" x 0.03"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="0.762" dy="0.762" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="PAD.03X.05">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.05" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.05" x 0.05"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="PAD.03X.04">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.04" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.04" x 0.04"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="TP_15TH">
+<description>&lt;h3&gt;Electrically Conductive Via 0.015" Drill&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area:0.015"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="P$1" x="0" y="0" drill="0.381" diameter="0.6096" stop="no"/>
+<circle x="0" y="0" radius="0.381" width="0" layer="30"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN_02">
@@ -22956,6 +23012,13 @@ part number 2062-2P from STA</description>
 <pin name="14" x="10.16" y="12.7" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="15" x="10.16" y="15.24" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="16" x="10.16" y="17.78" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="TEST-POINT">
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94" curve="180"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector">&gt;Value</text>
+<pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -23801,6 +23864,60 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST-POINT" prefix="TP">
+<description>&lt;h3&gt;SparkFun Test Points&lt;/h3&gt;
+&lt;p&gt;Bare copper test points for troubleshooting or In-Circuit-Testing. These are used by our Production team for verifying production board runs using pogo-pins on test beds.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13284”&gt;SparkFun LSM9DS1 Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13714”&gt;SparkFun PSOC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13879"&gt;SparkFun Load Cell Amplifier&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="2" package="PAD.02X.02">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3" package="PAD.03X.03">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3X5" package="PAD.03X.05">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3X4" package="PAD.03X.04">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TP_15TH_THRU" package="TP_15TH">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -26162,6 +26279,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-4.6X2.8MM" value="0"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="TP_15TH_THRU" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26320,6 +26438,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <instance part="FD4" gate="G$1" x="429.26" y="30.48"/>
 <instance part="S2" gate="G$1" x="294.64" y="83.82"/>
 <instance part="GND10" gate="1" x="287.02" y="78.74"/>
+<instance part="TP1" gate="G$1" x="309.88" y="81.28"/>
 </instances>
 <busses>
 </busses>
@@ -26731,9 +26850,10 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <label x="137.16" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="302.26" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="S2" gate="G$1" pin="4"/>
-<wire x1="299.72" y1="81.28" x2="302.26" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="TP1" gate="G$1" pin="1"/>
+<wire x1="299.72" y1="81.28" x2="309.88" y2="81.28" width="0.1524" layer="91"/>
+<label x="304.546" y="81.534" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
