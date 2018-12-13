@@ -22884,6 +22884,143 @@ Used as a test point connection for pogo pins or other debugging tools.
 <pad name="P$1" x="0" y="0" drill="0.381" diameter="0.6096" stop="no"/>
 <circle x="0" y="0" radius="0.381" width="0" layer="30"/>
 </package>
+<package name="USB-MICROB-PTH">
+<smd name="GND" x="1.30601875" y="-0.01528125" dx="1.75" dy="0.4" layer="1" rot="R90" cream="no"/>
+<smd name="ID" x="0.65601875" y="-0.01528125" dx="1.75" dy="0.4" layer="1" rot="R90" cream="no"/>
+<smd name="D+" x="0.00601875" y="-0.01528125" dx="1.75" dy="0.4" layer="1" rot="R90" cream="no"/>
+<smd name="D-" x="-0.64398125" y="-0.01528125" dx="1.75" dy="0.4" layer="1" rot="R90" cream="no"/>
+<smd name="VBUS" x="-1.29398125" y="-0.01528125" dx="1.75" dy="0.4" layer="1" rot="R90" cream="no"/>
+<smd name="SHIELD" x="-2.80628125" y="0.25971875" dx="1.46" dy="2" layer="1" rot="R90"/>
+<smd name="SHEILD2" x="2.80561875" y="0.25971875" dx="1.46" dy="2" layer="1" rot="R90"/>
+<smd name="SHIELD4" x="0.970778125" y="-2.69798125" dx="2.5" dy="1.425" layer="1" rot="R90"/>
+<smd name="SHIELD3" x="-0.96588125" y="-2.69528125" dx="2.5" dy="1.425" layer="1" rot="R90"/>
+<smd name="SHIELD12" x="2.45601875" y="0.25171875" dx="1.3" dy="1" layer="16" roundness="100" rot="R90" stop="no" cream="no"/>
+<polygon width="0.08" layer="1">
+<vertex x="-3.78088125" y="-0.70028125"/>
+<vertex x="-3.78588125" y="-1.34028125"/>
+<vertex x="-3.34898125" y="-1.34028125"/>
+<vertex x="-3.34398125" y="-3.23028125" curve="90"/>
+<vertex x="-2.93898125" y="-3.52528125"/>
+<vertex x="-2.33898125" y="-3.52528125" curve="90"/>
+<vertex x="-1.99398125" y="-3.24028125"/>
+<vertex x="-1.98898125" y="-0.70028125"/>
+</polygon>
+<smd name="SHIELD11" x="2.46201875" y="0.24771875" dx="1.3" dy="1" layer="1" roundness="100" rot="R90"/>
+<text x="-2.86398125" y="1.63971875" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-3.33488125" y="-5.53218125" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<smd name="SHIELD8" x="-2.68394375" y="-2.489984375" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90"/>
+<smd name="SHIELD10" x="-2.39338125" y="0.25771875" dx="1.3" dy="1" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="2.67601875" y="-2.48828125" dx="2.1" dy="1.4" layer="16" roundness="100" rot="R90" stop="no" cream="no"/>
+<smd name="SHIELD6" x="2.67601875" y="-2.48828125" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90"/>
+<polygon width="0.08" layer="1">
+<vertex x="3.77481875" y="-0.68758125"/>
+<vertex x="3.77481875" y="-1.33528125"/>
+<vertex x="3.34601875" y="-1.33528125"/>
+<vertex x="3.34601875" y="-3.22028125" curve="-90"/>
+<vertex x="2.94101875" y="-3.51528125"/>
+<vertex x="2.34101875" y="-3.51528125" curve="-90"/>
+<vertex x="2.01601875" y="-3.21028125"/>
+<vertex x="2.01601875" y="-0.70028125"/>
+</polygon>
+<hole x="-2.71798125" y="-2.48028125" drill="0.7"/>
+<smd name="SHIELD5" x="-2.68394375" y="-2.489984375" dx="2.1" dy="1.4" layer="16" roundness="100" rot="R90" stop="no" cream="no"/>
+<hole x="-2.71798125" y="-2.64628125" drill="0.7"/>
+<hole x="-2.71898125" y="-2.84528125" drill="0.7"/>
+<hole x="-2.71898125" y="-3.01028125" drill="0.7"/>
+<polygon width="0.1016" layer="29">
+<vertex x="-3.85318125" y="-0.64008125"/>
+<vertex x="-1.91008125" y="-0.64008125"/>
+<vertex x="-1.91008125" y="-3.12928125"/>
+<vertex x="-1.92278125" y="-3.23088125" curve="-90"/>
+<vertex x="-2.27838125" y="-3.61188125"/>
+<vertex x="-3.01498125" y="-3.61188125" curve="-90"/>
+<vertex x="-3.42138125" y="-3.23088125"/>
+<vertex x="-3.41638125" y="-1.46408125"/>
+<vertex x="-3.86088125" y="-1.46408125"/>
+</polygon>
+<polygon width="0.1016" layer="29">
+<vertex x="1.91261875" y="-0.64008125"/>
+<vertex x="3.81761875" y="-0.64008125"/>
+<vertex x="3.81761875" y="-1.44138125"/>
+<vertex x="3.43661875" y="-1.44138125"/>
+<vertex x="3.43661875" y="-3.20548125" curve="-90"/>
+<vertex x="3.05561875" y="-3.61188125"/>
+<vertex x="2.29361875" y="-3.61188125" curve="-90"/>
+<vertex x="1.91261875" y="-3.25628125"/>
+</polygon>
+<smd name="SHIELD9" x="-2.39338125" y="0.25771875" dx="1.3" dy="1" layer="16" roundness="100" rot="R90" stop="no" cream="no"/>
+<polygon width="0.05" layer="31">
+<vertex x="-3.39598125" y="-1.37668125"/>
+<vertex x="-3.81508125" y="-1.37668125"/>
+<vertex x="-3.81508125" y="-0.66548125"/>
+<vertex x="-1.97358125" y="-0.66548125"/>
+<vertex x="-1.97358125" y="-3.23088125" curve="-90"/>
+<vertex x="-2.30378125" y="-3.56108125"/>
+<vertex x="-3.06578125" y="-3.56108125" curve="-90"/>
+<vertex x="-3.37058125" y="-3.25628125"/>
+<vertex x="-3.37058125" y="-1.42748125" curve="90"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="3.38581875" y="-1.38938125"/>
+<vertex x="3.80491875" y="-1.38938125"/>
+<vertex x="3.80491875" y="-0.66548125"/>
+<vertex x="1.98881875" y="-0.66548125"/>
+<vertex x="1.98881875" y="-3.20548125" curve="90"/>
+<vertex x="2.31901875" y="-3.53568125"/>
+<vertex x="3.05561875" y="-3.53568125" curve="90"/>
+<vertex x="3.36041875" y="-3.23088125"/>
+<vertex x="3.37311875" y="-1.40208125" curve="-90"/>
+</polygon>
+<hole x="-2.38458125" y="0.47471875" drill="0.66"/>
+<hole x="-2.37458125" y="0.34471875" drill="0.66"/>
+<hole x="-2.38458125" y="0.19471875" drill="0.66"/>
+<hole x="-2.37918125" y="0.08551875" drill="0.66"/>
+<polygon width="0.05" layer="31">
+<vertex x="-1.42398125" y="0.79771875"/>
+<vertex x="-1.17398125" y="0.79771875"/>
+<vertex x="-1.17398125" y="-0.83228125"/>
+<vertex x="-1.42398125" y="-0.83228125"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="-0.78398125" y="0.79771875"/>
+<vertex x="-0.53398125" y="0.79771875"/>
+<vertex x="-0.53398125" y="-0.83228125"/>
+<vertex x="-0.78398125" y="-0.83228125"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="-0.13398125" y="0.80771875"/>
+<vertex x="0.11601875" y="0.80771875"/>
+<vertex x="0.11601875" y="-0.82228125"/>
+<vertex x="-0.13398125" y="-0.82228125"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="0.52601875" y="0.80771875"/>
+<vertex x="0.77601875" y="0.80771875"/>
+<vertex x="0.77601875" y="-0.82228125"/>
+<vertex x="0.52601875" y="-0.82228125"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="1.17601875" y="0.79771875"/>
+<vertex x="1.42601875" y="0.79771875"/>
+<vertex x="1.42601875" y="-0.83228125"/>
+<vertex x="1.17601875" y="-0.83228125"/>
+</polygon>
+<hole x="2.45541875" y="0.47471875" drill="0.66"/>
+<hole x="2.46541875" y="0.34471875" drill="0.66"/>
+<hole x="2.45541875" y="0.19471875" drill="0.66"/>
+<hole x="2.46081875" y="0.08551875" drill="0.66"/>
+<hole x="2.74301875" y="-2.48028125" drill="0.7"/>
+<hole x="2.74201875" y="-2.64928125" drill="0.7"/>
+<hole x="2.74101875" y="-2.84228125" drill="0.7"/>
+<hole x="2.74101875" y="-3.01028125" drill="0.7"/>
+<wire x1="-3.75" y1="-4.9742" x2="3.75" y2="-4.9742" width="0.1524" layer="51"/>
+<wire x1="3.75" y1="-4.9742" x2="3.75" y2="0.0131" width="0.1524" layer="51"/>
+<wire x1="3.75" y1="0.0131" x2="-3.75" y2="0.0131" width="0.1524" layer="51"/>
+<wire x1="-3.75" y1="0.0131" x2="-3.75" y2="-4.9742" width="0.1524" layer="51"/>
+<wire x1="4.02" y1="-5.5942" x2="-4.02" y2="-5.5942" width="0.1524" layer="51"/>
+<wire x1="-4.02" y1="-5.5942" x2="-3.75" y2="-4.9742" width="0.1524" layer="51"/>
+<wire x1="4.02" y1="-5.5942" x2="3.75" y2="-4.9742" width="0.1524" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN_02">
@@ -23434,6 +23571,19 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <technology name="">
 <attribute name="PROD_ID" value="CONN-13711" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="_HALF_PTH" package="USB-MICROB-PTH">
+<connects>
+<connect gate="J1" pin="D+" pad="D+"/>
+<connect gate="J1" pin="D-" pad="D-"/>
+<connect gate="J1" pin="GND" pad="GND"/>
+<connect gate="J1" pin="ID" pad="ID"/>
+<connect gate="J1" pin="SHIELD" pad="SHEILD2 SHIELD SHIELD3 SHIELD4 SHIELD5 SHIELD6 SHIELD8 SHIELD9 SHIELD10 SHIELD11 SHIELD12"/>
+<connect gate="J1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -26248,7 +26398,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J3" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM"/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="USB_MICRO-B" device="_HALF_PTH_MILL" value="AMP FCI 10103594-0001LF"/>
 <part name="U4" library="SparkFun-IC-Comms" deviceset="CP2102N" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -26280,6 +26429,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-4.6X2.8MM" value="0"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="TP_15TH_THRU" value=""/>
+<part name="J5" library="SparkFun-Connectors" deviceset="USB_MICRO-B" device="_HALF_PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -26326,7 +26476,7 @@ R_PROG=2k : I_CHG=500mA</text>
 <text x="2.54" y="187.96" size="2.54" layer="94">Espressif ESP32</text>
 <text x="261.62" y="60.96" size="2.54" layer="94" font="vector">Reset Button</text>
 <text x="332.74" y="101.6" size="2.54" layer="94" font="vector">Headers</text>
-<text x="421.64" y="10.16" size="2.54" layer="94" align="top-left">v03</text>
+<text x="421.64" y="10.16" size="2.54" layer="94" align="top-left">v10</text>
 <text x="273.812" y="0.762" size="1.778" layer="94" rot="MR180" align="top-left">Original ESP32 Thing by Jim Lindblom</text>
 <text x="381" y="114.3" size="1.778" layer="97" font="vector" align="top-center">If DTR is LOW, toggling RTS from HIGH to LOW resets to run mode.
 If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
@@ -26399,9 +26549,6 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <instance part="J3" gate="G$1" x="287.02" y="137.16"/>
 <instance part="SUPPLY1" gate="G$1" x="297.18" y="144.78"/>
 <instance part="GND6" gate="1" x="297.18" y="129.54"/>
-<instance part="J1" gate="J1" x="307.34" y="238.76" smashed="yes">
-<attribute name="NAME" x="304.8" y="249.174" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="U4" gate="G$1" x="365.76" y="236.22"/>
 <instance part="R1" gate="G$1" x="332.74" y="228.6"/>
 <instance part="SUPPLY9" gate="G$1" x="337.82" y="256.54" smashed="yes">
@@ -26439,6 +26586,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <instance part="S2" gate="G$1" x="294.64" y="83.82"/>
 <instance part="GND10" gate="1" x="287.02" y="78.74"/>
 <instance part="TP1" gate="G$1" x="309.88" y="81.28"/>
+<instance part="J5" gate="J1" x="294.64" y="238.76"/>
 </instances>
 <busses>
 </busses>
@@ -26536,7 +26684,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="GND26" gate="1" pin="GND"/>
 <wire x1="322.58" y1="236.22" x2="322.58" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="236.22" x2="312.42" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="J1" gate="J1" pin="GND"/>
+<pinref part="J5" gate="J1" pin="GND"/>
+<wire x1="312.42" y1="236.22" x2="299.72" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="231.14" x2="73.66" y2="231.14" width="0.1524" layer="91"/>
@@ -26667,12 +26816,13 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U4" gate="G$1" pin="VREGIN"/>
 <wire x1="335.28" y1="233.68" x2="345.44" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="246.38" x2="312.42" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="J1" gate="J1" pin="VBUS"/>
 <wire x1="314.96" y1="246.38" x2="327.66" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="VBUS"/>
 <wire x1="345.44" y1="231.14" x2="335.28" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="231.14" x2="335.28" y2="233.68" width="0.1524" layer="91"/>
 <junction x="335.28" y="233.68"/>
+<pinref part="J5" gate="J1" pin="VBUS"/>
+<wire x1="312.42" y1="246.38" x2="299.72" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VIN"/>
@@ -26712,20 +26862,22 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <label x="322.58" y="243.84" size="1.778" layer="95" rot="MR0"/>
 <wire x1="325.12" y1="243.84" x2="312.42" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="J1" gate="J1" pin="D-"/>
 <wire x1="325.12" y1="243.84" x2="327.66" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="D-"/>
 <wire x1="327.66" y1="241.3" x2="345.44" y2="241.3" width="0.1524" layer="91"/>
+<pinref part="J5" gate="J1" pin="D-"/>
+<wire x1="312.42" y1="243.84" x2="299.72" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D+" class="0">
 <segment>
 <label x="322.58" y="241.3" size="1.778" layer="95" rot="MR0"/>
 <wire x1="325.12" y1="241.3" x2="312.42" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="J1" gate="J1" pin="D+"/>
 <wire x1="325.12" y1="241.3" x2="327.66" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="D+"/>
 <wire x1="327.66" y1="243.84" x2="345.44" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="J5" gate="J1" pin="D+"/>
+<wire x1="312.42" y1="241.3" x2="299.72" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -27002,14 +27154,14 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <label x="365.76" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="IO21"/>
-<wire x1="134.62" y1="101.6" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
-<label x="137.16" y="101.6" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J3" gate="G$1" pin="3"/>
 <wire x1="294.64" y1="139.7" x2="299.72" y2="139.7" width="0.1524" layer="91"/>
 <label x="299.72" y="139.7" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="IO23"/>
+<wire x1="134.62" y1="96.52" x2="137.16" y2="96.52" width="0.1524" layer="91"/>
+<label x="137.16" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -27095,6 +27247,11 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <wire x1="134.62" y1="124.46" x2="137.16" y2="124.46" width="0.1524" layer="91"/>
 <label x="137.16" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="5"/>
+<wire x1="368.3" y1="81.28" x2="365.76" y2="81.28" width="0.1524" layer="91"/>
+<label x="365.76" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="13" class="0">
 <segment>
@@ -27157,18 +27314,6 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <label x="396.24" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="23" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="IO23"/>
-<wire x1="134.62" y1="96.52" x2="137.16" y2="96.52" width="0.1524" layer="91"/>
-<label x="137.16" y="96.52" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="16"/>
-<wire x1="393.7" y1="53.34" x2="396.24" y2="53.34" width="0.1524" layer="91"/>
-<label x="396.24" y="53.34" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="35" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO35"/>
@@ -27182,11 +27327,6 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <wire x1="134.62" y1="104.14" x2="137.16" y2="104.14" width="0.1524" layer="91"/>
 <label x="137.16" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="5"/>
-<wire x1="368.3" y1="81.28" x2="365.76" y2="81.28" width="0.1524" layer="91"/>
-<label x="365.76" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -27194,6 +27334,18 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="35.56" x2="236.22" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="40.64" x2="233.68" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="21" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO21"/>
+<wire x1="134.62" y1="101.6" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
+<label x="137.16" y="101.6" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="16"/>
+<wire x1="393.7" y1="53.34" x2="396.24" y2="53.34" width="0.1524" layer="91"/>
+<label x="396.24" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
