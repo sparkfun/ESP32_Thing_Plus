@@ -23,8 +23,8 @@ Documentation
 
 Product Versions
 ----------------
-* [WRL-15663](https://www.sparkfun.com/products/15663)- Slight hardware update that includes a 10&ohm; series resistor between VUSB and CP2102
-* [WRL-14689](https://www.sparkfun.com/products/14689)- Initial Release
+* [WRL-15663](https://www.sparkfun.com/products/15663)- v2.0, Slight hardware update that includes a 10&ohm; series resistor between VUSB and CP2102
+* [WRL-14689](https://www.sparkfun.com/products/14689)- v1.0, Initial Release
 
 License Information
 -------------------
