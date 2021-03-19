@@ -26289,7 +26289,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-13849"/>
+<attribute name="PROD_ID" value="IC-15676"/>
 </technology>
 </technologies>
 </device>
@@ -26618,7 +26618,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_12" device="SM_SQ_NO_SILK"/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_16" device="1X16_SM_SQ_NOSILK"/>
 <part name="U2" library="SparkFun-RF" deviceset="ESP-WROOM-32" device="NARROW">
-<attribute name="PROD_ID" value="IC-13849"/>
+<attribute name="PROD_ID" value="IC-15676"/>
 </part>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="V_USB" device=""/>
