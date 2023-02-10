@@ -5,7 +5,7 @@ SparkFun ESP32 Thing Plus
 
 [*SparkFun ESP32 Thing Plus (WRL-15663)*](https://www.sparkfun.com/products/15663)
 
-The [SparkFun ESP32 Thing Plus](https://www.sparkfun.com/products/15663) is a comprehensive development platform for [Espressif's ESP32](https://espressif.com/en/products/hardware/esp32/overview). Like the 8266 and ESP32 Thing, the ESP32 Thing Plus is a **WiFi**-compatible microcontroller with support for **Bluetooth low-energy** (i.e BLE, BT4.0, Bluetooth Smart), a Qwiic adapter, and 21 I/O pins. Add to that a rich set of peripherals ranging from capacitive touch sensors, Hall sensors, SD card interface, Ethernet, high-speed SPI, UART, I2S and I<sup>2</sup>C.
+The [SparkFun ESP32 Thing Plus](https://www.sparkfun.com/products/15663) is a comprehensive development platform for [Espressif's ESP32](https://espressif.com/en/products/hardware/esp32/overview). Like the 8266 and ESP32 Thing, the ESP32 Thing Plus is a **WiFi**-compatible microcontroller with support for **Bluetooth low-energy** (i.e BLE, BT4.0, Bluetooth Smart), a Qwiic adapter, and 21 I/O pins. Add to that a rich set of peripherals ranging from capacitive touch sensors, SD card interface, Ethernet, high-speed SPI, UART, I2S and I<sup>2</sup>C.
 
 Upgraded and easy to use, the Esp32 Thing Plus will help make it the foundation of IoT and connected projects for many years to come.
 
